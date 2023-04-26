@@ -48,7 +48,7 @@ const current_time=document.getElementById("current-time")
           li.innerHTML=
           `
           <label for="${alarmString.id}">${alarmString.data}</label>
-          <img src="delete_FILL1_wght400_GRAD0_opsz48.png" class="delete" data-id="${alarmString.id}" />
+          <img src="folder/delete_FILL1_wght400_GRAD0_opsz48.png" class="delete" data-id="${alarmString.id}" />
           `
           taskList.append(li);
 
